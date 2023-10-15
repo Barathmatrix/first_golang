@@ -1,4 +1,4 @@
-pw# first_golang
+# first_golang
 Learning go long by making projects
 ## About Go
 Go is a strong and statically typed language  <br />
