@@ -39,6 +39,15 @@ You can configure GOPATH for the following scopes:
 
 * Module GOPATH: settings apply only to one module. A module can have an SDK that is different from those configured for a project. They can also carry a specific technology or a framework.
 
+# File Configuration
+The github files should be present inside the src folder
+
+# Go Run
+go run /location/to/main/file will complile the files and run them temporarily. This will also compile the third party libraries available like "fmt"
+
+# Go Build
+go build /location/to/the package. This will create an executable file
+
 
 
 
