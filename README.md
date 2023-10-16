@@ -46,8 +46,21 @@ The github files should be present inside the src folder
 go run /location/to/main/file will complile the files and run them temporarily. This will also compile the third party libraries available like "fmt"
 
 # Go Build
-go build /location/to/the package. This will create an executable file
+go build /location/to/the package from the go path. This will create an executable file. The build will be present in your current terminal location. 
 
+# Go Install
+We can install go with go install /location/of/the/executable file from the go path
+
+# Start Application
+To start the application we just have to type the name of the package and enter
+
+# Variables
+
+There are three different ways variables can be declared in Go <br />
+ 
+* var "variable name" "variable Type" - e.g. var a int, var barath string. we can instanciate using =. For e.g. a =25, barath = barath;
+* var "variable name" variable Type" "variable value". For example: var a int = 25
+* var := "value", go will automatically find out the variable type
 
 
 
